@@ -46,7 +46,7 @@ class RecyclerViewSkeletonScreen private constructor(builder: Builder) : Skeleto
         var mShimmer = true
         var mItemCount = 10
         var mItemResID = R.layout.layout_default_item_skeleton
-        lateinit var mItemsResIDArray: IntArray
+        var mItemsResIDArray: IntArray = intArrayOf()
         var mShimmerColor: Int
         var mShimmerDuration = 1000
         var mShimmerAngle = 20
